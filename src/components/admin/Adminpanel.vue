@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       options: [
-        {name: "Rezervimet", image:"https://media.discordapp.net/attachments/956671700936839259/1084497248701927504/Rezervimet.png?width=640&height=640", path:"rezervimet"},
+        {name: "Porositë", image:"https://media.discordapp.net/attachments/956671700936839259/1084497248701927504/Rezervimet.png?width=640&height=640", path:"rezervimet"},
         {name: "Mesazhet",image:"https://media.discordapp.net/attachments/956671700936839259/1084497248949383231/Mesazhet.png?width=670&height=670",path:"messages"},
         {name: "Shto Libër",image:"https://media.discordapp.net/attachments/956671700936839259/1084497248106315886/Shto_Liber.png?width=640&height=640", path:"dashboard"},
         {name: "Kategoritë",image:"https://media.discordapp.net/attachments/956671700936839259/1084497249201029233/Kategorite.png?width=670&height=670", path:"category"},

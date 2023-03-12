@@ -19,7 +19,7 @@
       </p>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12" style="float:right;padding-left:15%;">
-      <h6 class="text-uppercase font-weight-bold">Contact</h6>
+      <h6 class="text-uppercase font-weight-bold">Address:</h6>
       <p>Rrexhep Bislimi, Ferizaj
       <br/>info@comictorium.com
       <!-- <br/>+ 383 45 123 456

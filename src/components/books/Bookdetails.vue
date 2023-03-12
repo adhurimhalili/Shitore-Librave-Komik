@@ -118,7 +118,7 @@
                
             
 
-            <button class="btn btn-success btn-lg btn-block mt-3" type="submit">Rezervo <i class="cil-book"></i></button>
+            <button class="btn btn-success btn-lg btn-block mt-3" type="submit">Porosit <i class="cil-book"></i></button>
           </form>
               </template>
           

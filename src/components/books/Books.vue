@@ -10,7 +10,7 @@
     
           <div class="col-lg-2">
 
-      <h2 class="my-4 ml-5 bookscat">Librat</h2>
+      <h2 class="my-4 ml-5 bookscat" style="font-size: 100px;">Librat</h2>
       <div v-for="categories in categoryfields" v-bind:key="categories._id">
       <div v-if="catId == categories._id">
     <h2 class="my-4 ml-5 bookscat">{{categories.name}}</h2>
