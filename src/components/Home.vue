@@ -8,7 +8,7 @@
         <div class="row h-100 align-items-center">
           <div class="col-lg-12">          
             <h1 class="display-4 text-white mt-5 mb-2" style="text-shadow: 3px 3px 5px #000000;">Comictorium</h1>
-          <p class="lead  text-white" style="text-shadow: 1px 3px 2px #000000;">Rezervoni librin tuaj të dëshiruar përmes internetit nga komoditeti i shtëpisë tuaj.</p>
+          <p class="lead  text-white" style="text-shadow: 1px 2px 2px #000000;">Rezervoni librin tuaj të dëshiruar përmes internetit nga komoditeti i shtëpisë tuaj.</p>
             <!-- <h3 class="lead pb-2 text-white" style="text-shadow: 2px 3px 2px #000000;">"Një dhomë pa libra është si një trup pa shpirt"<br><pre class="text-white">                                    (Marcus Tallius)</pre></h3> -->
               <br> <br>
           </div>
@@ -46,7 +46,7 @@ export default {
   data () {
     return {
       books: [
-        {title: "Predator (2023)", author:"Ed Brisson", 
+        {title: "Predator #2", author:"Ed Brisson", 
         image:"https://cdn.marvel.com/u/prod/marvel/i/mg/c/50/63f4e91b3ebc3/clean.jpg"},
 
         {title: "Hulk #13",author:"Ryan Ottley", 

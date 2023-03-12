@@ -14,7 +14,7 @@
            <div v-for="admins in adminfields" :key="admins._id">
           <div v-if="admins.email == 'admin@comicbooks.com'">
         <div  class="section mb-5 card">
-           <img src="https://image.flaticon.com/icons/svg/1966/1966970.svg" class="mt-4 mb-4 optionimage">
+           <img src="https://media.discordapp.net/attachments/956671700936839259/1084497249465290802/Admin.webp?width=320&height=320" class="mt-4 mb-4 optionimage">
           <div class="card-footer">
                <router-link to="/admin" style="text-decoration:none"><h4 class="text-center pt-2">Admins</h4>  </router-link>
              </div>
@@ -31,12 +31,12 @@ export default {
   data () {
     return {
       options: [
-        {name: "Rezervimet", image:"https://image.flaticon.com/icons/svg/1889/1889979.svg", path:"rezervimet"},
-        {name: "Mesazhet",image:"https://image.flaticon.com/icons/svg/129/129517.svg",path:"messages"},
-        {name: "Shto librin",image:"https://image.flaticon.com/icons/svg/2232/2232688.svg", path:"dashboard"},
-        {name: "Kategoritë",image:"https://image.flaticon.com/icons/svg/1141/1141913.svg", path:"category"},
-        {name: "Posta",image:"https://image.flaticon.com/icons/svg/745/745024.svg", path:"posta"},
-        {name: "Thëniet",image:"https://image.flaticon.com/icons/svg/402/402330.svg", path:"quotes"},
+        {name: "Rezervimet", image:"https://media.discordapp.net/attachments/956671700936839259/1084497248701927504/Rezervimet.png?width=640&height=640", path:"rezervimet"},
+        {name: "Mesazhet",image:"https://media.discordapp.net/attachments/956671700936839259/1084497248949383231/Mesazhet.png?width=670&height=670",path:"messages"},
+        {name: "Shto Libër",image:"https://media.discordapp.net/attachments/956671700936839259/1084497248106315886/Shto_Liber.png?width=640&height=640", path:"dashboard"},
+        {name: "Kategoritë",image:"https://media.discordapp.net/attachments/956671700936839259/1084497249201029233/Kategorite.png?width=670&height=670", path:"category"},
+        {name: "Posta",image:"https://media.discordapp.net/attachments/956671700936839259/1084497250237042759/Posta.png?width=670&height=670", path:"posta"},
+        {name: "Thëniet",image:"https://media.discordapp.net/attachments/956671700936839259/1084497249972781166/Quotes.png?width=670&height=670", path:"quotes"},
       ],
         adminfields:{},
      
