@@ -77,7 +77,7 @@
  <div  v-for="(book,index) in displayedPosts" v-bind:key="index" >
         
         
-            <div class="section mb-5 card ">
+      <div class="section mb-5 card ">
               
            <h4 class="text-center pt-3 ">{{book.title}}</h4>
          <img :src="`http://localhost:5000/images/${book.image}`" class="img-fluid rrite">
@@ -107,7 +107,7 @@
          </div>
      
      
-       </div>
+      </div>
 
        
        </div>

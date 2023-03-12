@@ -8,13 +8,6 @@ body {
   }
 
 
-  .display-4{
-    /* text-shadow: 3px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; */
-  }
-
-  .lead{
-    /* text-shadow: 2px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; */
-  }
 
   pre{
     font-family: "Yanone Kaffeesatz";
@@ -285,7 +278,7 @@ color: white;
 
 .input-group-prepend span{
 width: 40px;
-background-color: #FFC312;
+background-color: #007cb6;
 color: black;
 border:0 !important;
 }
@@ -310,7 +303,7 @@ margin-right: 5px;
 
 .login_btn{
 color: black;
-background-color: #FFC312;
+background-color: #007cb6;
 width: 100px;
 }
 
