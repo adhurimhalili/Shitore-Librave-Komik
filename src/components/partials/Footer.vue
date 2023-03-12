@@ -14,14 +14,15 @@
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12" style="float:right;padding-left:15%;">
       <h6 class="text-uppercase font-weight-bold">Contact</h6>
-      <p>Dëshmorët e Kombit, Ferizaj
-      <br/>info@elibrary.com
-      <br/>+ 383 45 123 456
-      <br/>+ 383 44 123 456</p>
+      <p>Rrexhep Bislimi, Ferizaj
+      <br/>info@comictorium.com
+      <!-- <br/>+ 383 45 123 456
+      <br/>+ 383 44 123 456 -->
+    </p>
     </div>
   </div>
   </div>
-  <div class="footer-copyright text-center">© 2020 Copyright: E-Library</div>
+  <div class="footer-copyright text-center">© 2020 Copyright: Comictorium</div>
 </footer>
 </div>
 

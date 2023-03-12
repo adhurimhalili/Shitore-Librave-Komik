@@ -6,15 +6,16 @@
   <div class="bg-prima py-5 mb-5">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-         <h1 class="display-4 text-white mt-5 mb-2">E-Library</h1>
-         <p class="lead  text-white">Rezervoni librin tuaj të dëshiruar përmes internetit.</p>
-          <h3 class="lead pb-2 text-white">"Një dhomë pa libra është si një trup pa shpirt"<br><pre class="text-white">                                    (Marcus Tallius)</pre></h3>
+        <div class="col-lg-12">          
+          <h1 class="display-4 text-white mt-5 mb-2" style="text-shadow: 3px 3px 5px #000000;">Comictorium</h1>
+         <p class="lead  text-white" style="text-shadow: 1px 3px 2px #000000;">Rezervoni librin tuaj të dëshiruar përmes internetit nga komoditeti i shtëpisë tuaj.</p>
+          <!-- <h3 class="lead pb-2 text-white" style="text-shadow: 2px 3px 2px #000000;">"Një dhomë pa libra është si një trup pa shpirt"<br><pre class="text-white">                                    (Marcus Tallius)</pre></h3> -->
             <br> <br>
         </div>
       </div>
     </div>
   </div>
+
  
 <div class="container">
   <div class="separator">Ne ofrojmë</div><br>
@@ -49,7 +50,7 @@
 </div>
     
     <!-- /.row -->
-<div class="separator">Best Books Ever</div><br>
+<div class="separator">Lëshimet e Reja</div><br>
   
    <div v-for="(book,index) in books" :key="index" class="section mb-5 card ">
     <h4 class="text-center pt-3 pb-1 text-danger">{{book.title}}</h4>
@@ -69,9 +70,12 @@ export default {
   data () {
     return {
       books: [
-        {title: "Anna Karenina", author:"Clarence Brown", image:"https://cdn.britannica.com/s:800x1000/82/175382-050-8B76E4A8/Greta-Garbo-Anna-Karenina-Clarence-Brown.jpg"},
-        {title: "To Kill a Mockingbird",author:"Harper Lee", image:"https://cdn.britannica.com/s:800x1000/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg"},
-        {title: "The Great Gatsby",author:"F. Scott Fitzgerald", image:"https://cdn.britannica.com/s:800x1000/47/24647-050-E6E25F22/F-Scott-Fitzgerald.jpg"}
+        {title: "Predator (2023)", author:"Ed Brisson", 
+        image:"https://cdn.marvel.com/u/prod/marvel/i/mg/c/50/63f4e91b3ebc3/clean.jpg"},
+        {title: "Hulk #13",author:"Ryan Ottley", 
+        image:"https://s3.amazonaws.com/comicgeeks/comics/covers/large-4704020.jpg?1678611099"},
+        {title: "The Last Ronin - The Lost Years #2",author:"Tom Waltz", 
+        image:"https://s3.amazonaws.com/comicgeeks/comics/covers/large-1951999.jpg?1675126239"}
       ]
      
     }
