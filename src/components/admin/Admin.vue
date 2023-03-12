@@ -20,7 +20,7 @@
                 <tr  class="text-center" v-for="adminusers in admintableusers" v-bind:key="adminusers._id">
                                 <td>{{adminusers.email}}</td>
                                 
-                                <td v-if="adminusers.email !== 'admin@comicbooks.com'"><button type="button" class="btn btn-danger"  @click.stop="deleteadmin(adminusers._id)">Delete </button></td>
+<td v-if="adminusers.email !== 'admin@comicbooks.com'"><button type="button" class="btn btn-danger"  @click.stop="deleteadmin(adminusers._id)">Delete </button></td>                                
                             </tr>
             </tbody>
         </table>

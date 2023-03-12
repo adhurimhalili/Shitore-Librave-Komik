@@ -5,9 +5,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark static-top font header">
     
     <div class="container">
-       
-      <img style="width:50px" src="../../assets/logo.png">
-      <a class="navbar-brand"  href="#">Comictorium</a> 
+      <router-link to="/"><img style="width:50px" src="../../assets/logo.png"></router-link>       
+      <router-link to="/"><a class="navbar-brand"  href="#">Comictorium</a></router-link> 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

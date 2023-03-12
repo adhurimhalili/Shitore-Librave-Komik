@@ -8,9 +8,15 @@
       <div class="col-lg-8 col-md-8 col-sm-12" style="float:right;padding-left:10%;">
       <h6 class="text-uppercase font-weight-bold text-center">Informacione shtesë</h6>
       <p>
-      Një bibliotekë është një koleksion i kururar i burimeve të informacionit dhe burimeve të ngjashme, të zgjedhura nga ekspertë dhe të bëra të arrtishme për një komunitet të caktuar për referencë ose huazim.
+        <router-link to="/about" active-class="active" exact><a>About Us: </a></router-link>
+        <br>
+        Mësoni më shumë rreth misionit, ekipit dhe angazhimit tonë për të ofruar një përzgjedhje të cilësisë së lartë të librave komikë.
       </p>
-      <p>Koleksioni i kësaj librarie përfshinë libra, revista periodike, gazeta, dorëshkrime, harta, printime, dokumente. Një librari organizohet për përdorim dhe mirëmbahet nga një organ publik, një institucion, një korporatë ose një individ privat.</p>
+      <p>
+        <router-link to="/contact" active-class="active" exact><a>Contact Us:</a></router-link>
+        <br>
+        Na kontaktoni nëse keni pyetje, komente ose shqetësime. Ne jemi gjithmonë të lumtur të dëgjojmë nga klientët tanë.
+      </p>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-12" style="float:right;padding-left:15%;">
       <h6 class="text-uppercase font-weight-bold">Contact</h6>
@@ -22,7 +28,7 @@
     </div>
   </div>
   </div>
-  <div class="footer-copyright text-center">© 2020 Copyright: Comictorium</div>
+  <div class="footer-copyright text-center">© 2023 Copyright: Comictorium</div>
 </footer>
 </div>
 

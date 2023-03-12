@@ -1,8 +1,8 @@
 <template>
   <div class="container">
    
-       <div v-for="admins in adminfields" v-bind:key="admins._id">
-          <div v-if="admins.email == user.data.email">
+       <div>
+          <div>
       <div class="py-5 text-center">
         <h2 id="addbook">Shto Librin</h2>
          </div>
