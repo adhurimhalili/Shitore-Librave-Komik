@@ -4,12 +4,7 @@
      <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-lg-12">
-             <h1 class="display-4 text-white mt-5 mb-2" style="text-shadow: 3px 3px 5px #000000;">About us</h1>
-             <h3 class="lead pb-2 text-white" style="text-shadow: 1px 3px 2px #000000;">"Unë gjithmonë kam imagjinuar që Parajsa do të jetë një lloj biblioteke."-(Jorge Borges)</h3>
-            
-             <h3 class="lead pb-2 text-white" style="text-shadow: 1px 3px 2px #000000;">“Kur kam pak para, blej libra dhe nëse kanë mbetur, blej ushqim dhe rroba. "
-            -(Desiderius) </h3>
-             <span class="lead pb-5 text-white" style="text-shadow: 1px 3px 2px #000000;">"Miq të mirë, libra të mirë dhe një ndërgjegje të përgjumur: kjo është jeta ideale."- (Mark Twain)</span>
+             <h1 class="display-4 text-white mt-5 mb-2" style="text-shadow: 3px 3px 5px #000000; font-size: 120px;">About us</h1>
           </div>
         </div>
       </div>
@@ -17,13 +12,12 @@
      <div class="container">
        <div class="separator">About us</div><br>
           <div class="row space2">
-              <div class="col-lg-8 col-sm-6 portfolio-item space2">
+              <!-- <div class="col-lg-8 col-sm-6 portfolio-item space2"> -->
                 <div class="card">
                 
                   <div class="card-body">
                     <h4 class="card-title">
                       <br>
-                      <!-- <h2 class="text-center">📋</h2><br> -->
                     </h4>
                     <div class="about text-center"> <p>
                       Mirë se vini në faqen tonë të internetit të shitësve të Comictorium! Ne jemi 
@@ -59,19 +53,27 @@
                       Faleminderit që na zgjodhët si burimin tuaj të preferuar për librat komik 
                       dhe ne mezi presim t'ju shërbejmë!
                       </p><br>
+
+                      <!-- social media -->
+                      <div class="row" style="height: 100px; justify-content: space-evenly;">
+                        <a href="https://www.instagram.com"><img class="socialmedia" src="https://cdn.discordapp.com/attachments/956671700936839259/1084500117173846058/1161953_instagram_icon.png"></a>
+                        <a href="https://www.viber.com/en/"><img class="socialmedia" src="https://cdn.discordapp.com/attachments/956671700936839259/1084500117412917359/64-viber-256.webp"></a>
+                        <a href="https://www.facebook.com"><img class="socialmedia" src="https://cdn.discordapp.com/attachments/956671700936839259/1084500117844918292/5305154_fb_facebook_facebook_logo_icon.png"></a>
+                      </div>
+
                     </div>
                   </div>
                 </div>
-              </div>
+              <!-- </div> -->
               
         
-        <!-- <div class="col-lg-4 portfolio-item ">
-          <br><br><br>
-          <div class="card bg-transparent border-0" style="background-size: cover; background-position: center center;">
-                <img src="https://bloody-disgusting.com/wp-content/uploads/2021/03/marvel-predator-juen.png" class="fotoabout" style="background-size: cover; background-position: center;">
-                <br><br>
-              <img src="https://i.pinimg.com/originals/bd/da/47/bdda47151b710aec794e3264405c3863.jpg" class="fotoabout" >
-              </div>
+            <!-- <div class="col-lg-4 portfolio-item ">
+              <br><br><br>
+              <div class="card bg-transparent border-0">
+                    <img src="https://cdn.discordapp.com/attachments/956671700936839259/1084499612632629309/image.png" class="fotoabout" style="background-size: cover; background-position: center;">
+                    <br><br>
+                  <img src="https://i.pinimg.com/originals/bd/da/47/bdda47151b710aec794e3264405c3863.jpg" class="fotoabout" >
+                  </div>
             </div> -->
         </div>
       </div>

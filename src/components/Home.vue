@@ -7,20 +7,48 @@
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-lg-12">          
-            <h1 class="display-4 text-white mt-5 mb-2" style="text-shadow: 3px 3px 5px #000000;">Comictorium</h1>
-          <p class="lead  text-white" style="text-shadow: 1px 2px 2px #000000;">Rezervoni librin tuaj të dëshiruar përmes internetit nga komoditeti i shtëpisë tuaj.</p>
+            <h1 class="display-4 text-white mt-5 mb-2" style="text-shadow: 3px 3px 5px #000000; font-size: 100px">Comictorium</h1>
+          <p class="lead  text-white" style="text-shadow: 1px 2px 2px #000000; font-size: 30px">Porositini librin tuaj të dëshiruar përmes internetit nga komoditeti i shtëpisë tuaj.</p>
             <!-- <h3 class="lead pb-2 text-white" style="text-shadow: 2px 3px 2px #000000;">"Një dhomë pa libra është si një trup pa shpirt"<br><pre class="text-white">                                    (Marcus Tallius)</pre></h3> -->
               <br> <br>
           </div>
         </div>
       </div>
     </div>
-
-      
-
+          
 
   <!-- ne ofrojme section -->
   <div class="container">    
+
+    <div  class="col-lg-9 mb-4" style="margin-left: 13%;"> 
+      <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block img-fluid" src="../assets/slider1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="../assets/slider2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="../assets/slider3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+     
+       </div>
 
       <!-- /.row -->
       <div class="separator">Lëshimet e Reja</div><br>

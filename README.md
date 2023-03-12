@@ -1,5 +1,3 @@
-# libraria
-
 ## Project setup
 ```
 npm install
