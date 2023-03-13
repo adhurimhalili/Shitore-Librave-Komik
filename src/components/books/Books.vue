@@ -82,8 +82,8 @@
            <h4 class="text-center pt-3 ">{{book.title}}</h4>
          <img :src="`http://localhost:5000/images/${book.image}`" class="img-fluid rrite">
          <hr>
-         <span class="lead pl-4" style="font-weight: 500;">Autori: {{book.author}}</span>
-         <span class="float-right lead pl-4">Çmimi: <span class="text-danger">{{book.price}}.00€</span></span>
+         <span class="lead pl-4" style="font-weight: 500;">{{book.author}}</span>
+         <span class="float-right lead pl-4"><span class="text-danger">{{book.price}}.00€</span></span>
          <div class="card-footer mt-2 pb-3">
           <div v-if="user.loggedIn">
             <div class="d-flex">

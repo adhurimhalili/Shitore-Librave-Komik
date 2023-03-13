@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 body {
     padding: 0;
     margin: 0;
@@ -196,16 +196,18 @@ body {
     font-weight: bolder;
   }
 
- 
+ .aboutmep{
+  font-weight: 300;
+ }
   
 
 .section {
-     display: inline-block;
+    display: inline-block;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 20px;
-  margin-left: 50px;
-     width:27%;
+    margin-left: 50px;
+    width:27%;
   
 }
 

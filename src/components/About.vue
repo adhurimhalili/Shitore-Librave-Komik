@@ -19,7 +19,7 @@
                     <h4 class="card-title">
                       <br>
                     </h4>
-                    <div class="about text-center"> <p>
+                    <div class="about text-center"> <p class="aboutmep">
                       Mirë se vini në faqen tonë të internetit të shitësve të Comictorium! Ne jemi 
                       të apasionuar pas librave komikë dhe misioni ynë është t'u ofrojmë 
                       koleksionistëve dhe fansave një përzgjedhje të larmishme dhe cilësore të 
