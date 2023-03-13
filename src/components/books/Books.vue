@@ -84,12 +84,12 @@
          <hr>
          <span class="lead pl-4" style="font-weight: 500;">{{book.author}}</span>
          <span class="float-right lead pl-4"><span class="text-danger">{{book.price}}.00€</span></span>
-         <div class="card-footer mt-2 pb-3">
+         <div class="card-footer mt-2 pb-3 px-2">
           <div v-if="user.loggedIn">
             <div class="d-flex">
               <button type="button" class="btn btn-success ml-2" @click="goTodetail(book._id)">Shiko <i class="cil-book"></i></button>
                 <div  v-for="admins in adminfields" v-bind:key="admins._id">
-                  <div v-if="admins.email == user.data.email" style="display: flex; justify-content: center; ">
+                  <div v-if="admins.email == user.data.email" style="display: flex; justify-content: ">
                     <button type="button" class="btn btn-danger ml-2 " @click.stop="deletebook(book._id)">Delete <i class="cil-trash"></i></button>
                     <button type="button" class="btn btn-warning ml-2 text-white" @click.stop="editbook(book._id)">Edit <i class="far fa-edit"></i></button>                  
                   </div>
