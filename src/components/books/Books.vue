@@ -77,30 +77,29 @@
  <div  v-for="(book,index) in displayedPosts" v-bind:key="index" >
         
         
-      <div class="section mb-5 card ">
+      <div class="section mb-5 card" style="display: flex;">
               
            <h4 class="text-center pt-3 ">{{book.title}}</h4>
          <img :src="`http://localhost:5000/images/${book.image}`" class="img-fluid rrite">
          <hr>
-         <span class="lead pl-4">Autori: {{book.author}}</span>
-         <span class="float-right lead pr-4">Çmimi: <span class="text-danger">{{book.price}}.00€</span></span>
+         <span class="lead pl-4" style="font-weight: 500;">Autori: {{book.author}}</span>
+         <span class="float-right lead pl-4">Çmimi: <span class="text-danger">{{book.price}}.00€</span></span>
          <div class="card-footer mt-2 pb-3">
-           <div v-if="user.loggedIn">
-             <div class="d-flex">
-           <button type="button" class="btn btn-success ml-2" @click="goTodetail(book._id)">Shiko <i class="cil-book"></i></button>
-         <div  v-for="admins in adminfields" v-bind:key="admins._id">
-        <div v-if="admins.email == user.data.email">
-          <button type="button" class="btn btn-danger ml-2 " @click.stop="deletebook(book._id)">Delete <i class="cil-trash"></i></button>
-          <button type="button" class="btn btn-warning ml-2 text-white" @click.stop="editbook(book._id)">Edit <i class="far fa-edit"></i></button>
-         
-         </div>
-        </div>
-             </div>
+          <div v-if="user.loggedIn">
+            <div class="d-flex">
+              <button type="button" class="btn btn-success ml-2" @click="goTodetail(book._id)">Shiko <i class="cil-book"></i></button>
+                <div  v-for="admins in adminfields" v-bind:key="admins._id">
+                  <div v-if="admins.email == user.data.email" style="display: flex; justify-content: center; ">
+                    <button type="button" class="btn btn-danger ml-2 " @click.stop="deletebook(book._id)">Delete <i class="cil-trash"></i></button>
+                    <button type="button" class="btn btn-warning ml-2 text-white" @click.stop="editbook(book._id)">Edit <i class="far fa-edit"></i></button>                  
+                  </div>
+                </div>
+            </div>
           </div>
-          <div v-else>
-          
-          <button type="button" class="btn btn-warning ml-2" @click="goTodetail(book._id)">Detajet <i class="cil-book"></i></button>
-         </div>
+            <div v-else>
+            
+            <button type="button" class="btn btn-warning ml-2" @click="goTodetail(book._id)">Detajet <i class="cil-book"></i></button>
+          </div>
          
        
          
